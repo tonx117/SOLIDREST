@@ -1,4 +1,4 @@
-// Server.ts
+
 import express, { Application } from "express";
 import { VehicleController } from "../src/controllers/VehicleController";
 import { VehicleService } from "../src/services/VehicleService";
@@ -27,7 +27,7 @@ export class Server {
       "/vehicles/:id",
       vehicleController.getVehicle.bind(vehicleController)
     );
-    // Otras rutas...
+
   }
 
   public listen(port: number): void {
@@ -37,6 +37,6 @@ export class Server {
   }
 }
 
-// Iniciar el servidor
+
 const server = new Server();
 server.listen(3000);

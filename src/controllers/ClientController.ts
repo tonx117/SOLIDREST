@@ -1,4 +1,4 @@
-// ClientController.ts
+
 import { ClientService } from "../services/ClientService";
 import { Request, Response } from "express";
 
@@ -19,5 +19,5 @@ export class ClientController {
     }
   }
 
-  // Implementar los demás métodos de actualización y eliminación
+
 }

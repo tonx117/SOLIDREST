@@ -1,4 +1,4 @@
-// VehicleController.ts
+
 import { VehicleService } from "../services/VehicleService";
 import { Request, Response } from "express";
 
@@ -19,6 +19,6 @@ export class VehicleController {
     }
   }
 
-  // Implementar los demás métodos de actualización y eliminación
+
 }
 

@@ -1,4 +1,4 @@
-// IClient.ts
+
 export interface IClient {
   id: string;
   nombre: string;

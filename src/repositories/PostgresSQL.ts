@@ -1,4 +1,4 @@
-// PostgresVehicleRepository.ts
+
 import { IVehicleRepository } from "./IVehicleRepository";
 import { IVehicle } from "../models/IVehicle";
 
